@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/github/license/yomex96/NetworkAware-AgentPy)](https://github.com/yomex96/NetworkAware-AgentPy/blob/main/LICENSE)  
 [![GitHub stars](https://img.shields.io/github/stars/yomex96/NetworkAware-AgentPy?style=social)](https://github.com/yomex96/NetworkAware-AgentPy/stargazers)  
 [![GitHub forks](https://img.shields.io/github/forks/yomex96/NetworkAware-AgentPy?style=social)](https://github.com/yomex96/NetworkAware-AgentPy/network/members)  
+[![Notebook](https://img.shields.io/badge/demo_notebook-ready-brightgreen)](notebooks/demo_simulation.ipynb)  
+[![Tests](https://img.shields.io/github/actions/workflow/status/yomex96/NetworkAware-AgentPy/test.yml?branch=main)](https://github.com/yomex96/NetworkAware-AgentPy/actions)
 
 **NetworkAware-AgentPy** is a Python framework for simulating **multi-agent systems under realistic network communication constraints**.  
 It enables researchers to study how **latency, packet loss, and network topology** influence **coordination, resilience, and emergent behavior** in distributed autonomous systems.
@@ -38,7 +40,8 @@ Simulation outcomes are analyzed based on **coordination efficiency**, **communi
 - **Agent Behavior Modeling:** Define custom agent strategies and decision-making processes.  
 - **Failure Injection:** Random or scheduled link failures to test system resilience.  
 - **Metrics & Visualization:** Automatic calculation of coordination efficiency, communication success, and emergent behaviors.  
-- **Reproducible Pipelines:** Easily reproduce experiments using configuration files.
+- **Reproducible Pipelines:** Easily reproduce experiments using configuration files.  
+- **Notebook-ready Demos:** Explore example simulations interactively.
 
 ---
 
@@ -62,9 +65,13 @@ Scenario:
 - Communication is limited by latency and packet loss.  
 - Performance is evaluated under increasing network stress.
 
-**Sample Visualization:**
+**Sample Visualizations:**
 
-![Network Topology Example](docs/network_topology.png)
+**Network Topology:**  
+![Network Topology Example](docs/network_topology.png)  
+
+**Agent Coordination Over Time:**  
+![Agent Behavior Example](docs/agent_behavior.png)
 
 ---
 
@@ -109,6 +116,7 @@ NetworkAware-AgentPy/
 ├── experiments/            # Experiment runner + metrics
 ├── notebooks/              # Example simulations and visualization notebooks
 ├── configs/                # Simulation configuration files
+├── docs/                   # Diagrams, plots, screenshots
 └── requirements.txt
 ```
 
@@ -143,7 +151,8 @@ Link to experiment notebooks: [Notebooks](https://github.com/yomex96/NetworkAwar
 ## Contributing
 
 We welcome contributions! Please fork the repository and submit a pull request.
-Guidelines:
+
+**Guidelines:**
 
 1. Fork the repository.
 2. Create a feature branch.
@@ -178,7 +187,19 @@ See [LICENSE](LICENSE) for details.
 
 ```
 
+---
 
+✅ **Enhancements in this version:**
+- Notebook-ready badge.
+- CI/tests badge placeholder.
+- Diagram placeholders for network topology and agent behavior.
+- Cleaner, consistent formatting and headings.
+- Research-oriented emphasis with metrics and experiment details.  
+
+If you want, I can **also create ready-to-use images/diagrams** for your `docs/` folder so your README will look fully visual and professional on GitHub.  
+
+Do you want me to make those diagrams next?
+```
 
 
 
