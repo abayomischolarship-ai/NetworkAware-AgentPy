@@ -66,6 +66,16 @@ pip install -r requirements.txt
 jupyter notebook notebooks/demo_simulation.ipynb
 
 ```
+
+
+# Quick Start
+
+## Run a basic network simulation
+python run_simulation.py --config configs/default.json
+
+## Visualize agent behaviors
+python visualize_results.py --input results/simulation_1.csv
+
 ```bash
 NetworkAware-AgentPy/
 │
@@ -75,9 +85,6 @@ NetworkAware-AgentPy/
 ├── notebooks/              # Example simulations and visualization notebooks
 └── requirements.txt
 ```
-
-
-
 
 
 # Research Metrics Supported
@@ -97,6 +104,16 @@ success_rate = successful_transmissions / total_transmissions
 print("Communication Success Rate:", success_rate)
 ```
 
+# Experiments
+
+Link to experiment notebooks (if any):
+Notebooks
+
+# Contributing
+
+We welcome contributions! Please fork the repository and submit a pull request.
+
+
 # Citation
 
 ```bash
@@ -106,6 +123,8 @@ Onawole, A.R. (2025). NetworkAware-AgentPy: A network-aware multi-agent simulati
 # License
 
 This project is released under the MIT License.
+
+
 
 
 
