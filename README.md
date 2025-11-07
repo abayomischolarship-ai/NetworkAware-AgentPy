@@ -62,11 +62,11 @@ git clone https://github.com/yomex96/NetworkAware-AgentPy.git
 cd NetworkAware-AgentPy
 pip install -r requirements.txt
 
-```
+```bash
 jupyter notebook notebooks/demo_simulation.ipynb
 
 ```
-```
+```bash
 NetworkAware-AgentPy/
 │
 ├── agent_models/           # Agent definitions & behaviors
@@ -75,6 +75,10 @@ NetworkAware-AgentPy/
 ├── notebooks/              # Example simulations and visualization notebooks
 └── requirements.txt
 ```
+
+
+
+
 
 # Research Metrics Supported
 
@@ -86,33 +90,23 @@ Resilience Under Failure
 
 Emergent Behavior Patterns
 
-Example snippet:
-
-success_rate = successful_transmissions / total_transmissions
-print("Communication Success Rate:", success_rate)
-
-
-Research Metrics Supported
-
-Communication Success Rate
-
-Coordination Efficiency
-
-Resilience Under Failure
-
-Emergent Behavior Patterns
 
 Example snippet:
-
+```bash
 success_rate = successful_transmissions / total_transmissions
 print("Communication Success Rate:", success_rate)
+```
 
 # Citation
-Onawole, A.R. (2025). NetworkAware-AgentPy: A network-aware multi-agent simulation framework. GitHub. https://github.com/yomex96/NetworkAware-AgentPy
 
-License
+```bash
+Onawole, A.R. (2025). NetworkAware-AgentPy: A network-aware multi-agent simulation framework. GitHub. https://github.com/yomex96/NetworkAware-AgentPy
+```
+
+# License
 
 This project is released under the MIT License.
+
 
 
 
