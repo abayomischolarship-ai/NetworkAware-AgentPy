@@ -187,19 +187,9 @@ See [LICENSE](LICENSE) for details.
 
 ```
 
----
 
-✅ **Enhancements in this version:**
-- Notebook-ready badge.
-- CI/tests badge placeholder.
-- Diagram placeholders for network topology and agent behavior.
-- Cleaner, consistent formatting and headings.
-- Research-oriented emphasis with metrics and experiment details.  
 
-If you want, I can **also create ready-to-use images/diagrams** for your `docs/` folder so your README will look fully visual and professional on GitHub.  
 
-Do you want me to make those diagrams next?
-```
 
 
 
